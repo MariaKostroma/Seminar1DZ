@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <a href="index.html">Главная</a><br>
-    <a href="info\about.html">Обо мне</a><br>
-    <a href="newpage.html">Оставить заявку</a>
-    <h1>Оставить заявку</h1>
-    <h2>Регистрация</h2>
-    <input name="placeholder" type="name" value="Введите ваше имя"><br>
-    <input name="placeholder" type="email" value="Введите адрес почты"><br>
-    <button type="submit">Отправить</button>
-    <button type="reset">Удалить</button>
+<body class="bodystyle">
+    <a class="link" href="index.html">Главная</a><br>
+    <a class="link" href="info\about.html">Обо мне</a><br>
+    <a class="link" href="newpage.html">Оставить заявку</a>
+    <h1 class="header">Оставить заявку</h1>
+    <h2 class="header2">Регистрация</h2>
+    <form action="#">
+    Введите имя <input class="inputs" name="placeholder" type="name" placeholder="Введите ваше имя"><br>
+    Введите e-mail <input class="inputs" name="placeholder" type="email" placeholder="Введите адрес почты"><br>
+    <button class="buttons" type="submit">Отправить</button>
+    <button class="buttons" type="reset">Удалить</button>
+</form>
 </body>
 </html>
